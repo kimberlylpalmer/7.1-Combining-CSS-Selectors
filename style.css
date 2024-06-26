@@ -1,0 +1,34 @@
+/* Write your code here: */
+/* multiple selectors */
+h1,
+h2 {
+  color: blueviolet;
+  font-size: 3rem;
+}
+/* child selectors */
+.box > .done {
+  color: firebrick;
+  font-size: 40px;
+}
+/* descendent selectors */
+.box li  {
+    color: blue;
+    font-size: 20px
+    
+}
+
+/* chaining */
+li.done {
+    color: seagreen;
+    font-size: 20px
+}
+
+/* combining combiners */
+ul > p.done {
+    font-size: .5rem
+}
+
+
+
+
+
